@@ -28,7 +28,9 @@ def daily_max(data):
     return np.max(data, axis=0)
 
 
-def daily_min(data):
-    """Calculate the daily min of a 2d inflammation data array."""
+def daily_min(data: object) -> object:
+    """Calculate the daily min of a 2d inflammation data array.
+    @rtype: object
+    """
     return np.min(data, axis=0)
 
